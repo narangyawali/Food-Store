@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import foodspace from '../assets/foodspace.png'
+import foodspace from '../assets/home2.png'
 import googleLogo from '../assets/googleLogo.png'
 import { Link, useNavigate } from 'react-router-dom';
 import * as yup from 'yup'
@@ -53,7 +53,7 @@ const Index = () => {
         <form onSubmit={handleSubmit} className='flex flex-col bg-white shadow-xl border px-10 lg:px-20 rounded-3xl'>
         {messages !== '' && <strong className='text-green-500 text-center'>{messages}</strong>}
             <div className='mt-10 flex justify-center'>
-                <img className='h-12 md:h-16 lg:h-20 object-cover' src={foodspace} alt="foodspace logo" />
+                <img className='w-72 h-28' src={foodspace} alt="foodspace logo" />
             </div>
             <div className='space-y-4 mt-5'>
                 <div>

@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import foodspace from "../assets/foodspace.png";
+import foodspace from "../assets/home2.png";
 import { FaBars, FaCartShopping, FaGear } from "react-icons/fa6";
 import { IoIosContact } from "react-icons/io";
 import { MdTrolley } from "react-icons/md";
@@ -27,7 +27,7 @@ const Navbar = () => {
           <img
             src={foodspace}
             alt="foodspace logo"
-            className="h-11 hidden md:inline-block"
+            className="hidden md:inline-block h-20 w-64"
           />
         </div>
         <div className="space-x-10 hidden md:flex items-center">

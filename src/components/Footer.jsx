@@ -1,5 +1,5 @@
 import React from 'react'
-import foodspace from '../assets/foodspace.png'
+import foodspace from '../assets/home2.png'
 import { BsFacebook, BsInstagram, BsTwitter } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 

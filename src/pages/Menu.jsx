@@ -27,7 +27,7 @@ const Menu = () => {
                 <button onClick={() => setDataItems(items)} className='bg-red-800 hover:bg-red-700 hover:text-white w-20 h-8 rounded-full shadow-sm flex justify-center items-center outline-none'>
                     <li className='font-semibold text-[15px] md:text-lg text-white'>All</li>
                 </button>
-                <button onClick={() => filterCategory('meals')} className='bg-red-800 hover:bg-red-700 hover:text-white w-20 h-8 rounded-full shadow-sm flex justify-center items-center outline-none'>
+                {/* <button onClick={() => filterCategory('meals')} className='bg-red-800 hover:bg-red-700 hover:text-white w-20 h-8 rounded-full shadow-sm flex justify-center items-center outline-none'>
                     <li className='font-semibold text-[15px] md:text-lg text-white'>Meals</li>
                 </button>
                 <button onClick={() => filterCategory('snacks')} className='bg-red-800 hover:bg-red-700 hover:text-white w-20 h-8 rounded-full shadow-sm flex justify-center items-center outline-none'>
@@ -35,6 +35,17 @@ const Menu = () => {
                 </button>
                 <button onClick={() => filterCategory('drinks')} className='bg-red-800 hover:bg-red-700 hover:text-white w-20 h-8 rounded-full shadow-sm justify-center items-center outline-none'>
                     <li className='font-semibold text-[15px] md:text-lg text-white'>Drinks</li>
+                </button> */}
+
+
+                <button onClick={() => filterCategory('newari')} className='bg-red-800 hover:bg-red-700 hover:text-white w-20 h-8 rounded-full shadow-sm flex justify-center items-center outline-none'>
+                    <li className='font-semibold text-[15px] md:text-lg text-white'>newari</li>
+                </button>
+                <button onClick={() => filterCategory('sherpa')} className='bg-red-800 hover:bg-red-700 hover:text-white w-20 h-8 rounded-full shadow-sm flex justify-center items-center outline-none'>
+                    <li className='font-semibold text-[15px] md:text-lg text-white'>sherpa</li>
+                </button>
+                <button onClick={() => filterCategory('tharu')} className='bg-red-800 hover:bg-red-700 hover:text-white w-20 h-8 rounded-full shadow-sm flex justify-center items-center outline-none'>
+                    <li className='font-semibold text-[15px] md:text-lg text-white'>tharu</li>
                 </button>
             </ul>
         </div>
