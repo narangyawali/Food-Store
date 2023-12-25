@@ -58,7 +58,7 @@ const Menu = () => {
                         <img src={item.image} alt={item.name} className='w-full rounded-l-lg h-[200px] object-cover'/>
                         <div className='flex flex-col justify-around items-center text-center'>
                             <p className='font-semibold'>{item.name}</p>
-                            <p className='font-bold'>#{item.price}</p>
+                            <p className='font-bold'>{item.price}</p>
                             <button className='border-2 border-red-700 px-2 py-1 rounded-md outline-none'>
                                 <p className='text-red-700 font-bold'>Add to cart</p>
                             </button>
@@ -76,7 +76,7 @@ const Menu = () => {
                         <img src={item.image} alt={item.name} className='w-full h-[200px] rounded-t-lg object-cover' />
                         <div className='flex flex-col items-center space-y-2 mt-1'>
                             <p className='font-bold'>{item.name}</p>
-                            <p className='font-bold tracking-wide'>#{item.price}</p>
+                            <p className='font-bold tracking-wide'>Rs. {item.price}</p>
                             <button className='border-2 text-red-700 font-bold border-red-700 px-2 py-1 rounded-md hover:bg-red-100 outline-none' onClick={() => addToCart(item.id)}>
                                 Add to Cart
                             </button>

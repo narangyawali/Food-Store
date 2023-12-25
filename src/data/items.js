@@ -72,7 +72,21 @@ export const items = [
 		image:"https://nepal8thwonder.com/wp-content/uploads/2021/09/Ghongi-Tharu-Cuisine-768x768.jpg",
     price:"200"
   },
-  
+  {
+    id:11,
+    name:"dhikri",
+    category:"tharu",
+    image:"https://www.century-foods.com/wp-content/uploads/2022/09/Dhikri.jpg",
+    price:"210"
+  },
+  {
+    id:12,
+    name:"sidhar",
+    category:"tharu",
+    image:"https://www.thegundruk.com/wp-content/uploads/2016/01/Sidhara.jpg",
+    price:"240",
+
+  }
 
 ];
 
